@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+html, body { min-height: 100%; }
+body { margin: 0; background: #0b0b0c; color: #e4e4e7; font-feature-settings: "ss01" on, "cv11" on; }
+button { font: inherit; }
+::selection { background: rgba(161, 161, 170, .25); }
+
+.scrollbar-thin { scrollbar-width: thin; scrollbar-color: #303034 transparent; }
+.scrollbar-thin::-webkit-scrollbar { width: 5px; height: 5px; }
+.scrollbar-thin::-webkit-scrollbar-thumb { background: #303034; border-radius: 999px; }
+.scrollbar-thin::-webkit-scrollbar-track { background: transparent; }
